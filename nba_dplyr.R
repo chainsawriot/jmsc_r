@@ -58,8 +58,19 @@ arrange(nonznba, desc(X3PA), desc(X3PP))
 
 ## introducing the concept of pipeline, the 'then' operator %>%
 
+nba %>% filter(., X3PA > 0)
+
+### effectively, equal to
+filter(nba, X3PA > 0)
+
+### if the placement is in first position, you can skip the dot
+
 nba %>% filter(X3PA > 0)
+
 nba %>% filter(X3PA > 0) %>% mutate(X3PP = X3P / X3PA)
+
+# mutate(filter(nba, X3PA > 0), X3PP = X3P / X3PA)
+
 nba %>% filter(X3PA > 0) %>% mutate(X3PP = X3P / X3PA) %>% arrange(desc(X3PA), desc(X3PP))
 nba %>% filter(X3PA > 0) %>% mutate(X3PP = X3P / X3PA) %>% arrange(desc(X3PA), desc(X3PP)) %>% select(PLAYER, TM, X3P, X3PA, X3PP)
 
