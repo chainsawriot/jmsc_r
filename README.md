@@ -29,4 +29,8 @@ Raw data - Subway network in Beijing
 
 * http://www.ebeijing.gov.cn/feature_2/BeijingSubway/
 
+Data Entry
+
+* http://goo.gl/forms/bUwDlWbFqC
+
 
