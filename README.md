@@ -3,6 +3,8 @@
 
 system("defaults write org.R-project.R force.LANG en_US.UTF-8")
 
+My-email: chainsawtiney at gmail dot com
+
 NBA
 
 * https://en.wikipedia.org/wiki/Basketball_positions#/media/File:Basketball_Positions.png
