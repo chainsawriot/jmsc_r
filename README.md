@@ -1,5 +1,8 @@
 ## SAC - Split-Apply-Combine
 
+
+system("defaults write org.R-project.R force.LANG en_US.UTF-8")
+
 NBA
 
 * https://en.wikipedia.org/wiki/Basketball_positions#/media/File:Basketball_Positions.png
